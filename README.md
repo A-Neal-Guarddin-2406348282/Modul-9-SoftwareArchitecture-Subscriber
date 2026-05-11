@@ -1,3 +1,7 @@
+# Tutorial 9 - Subscriber
+
+***Oleh Neal Guarddin - 2406348282***
+
 ### a. Apa itu AMQP?
 **AMQP (Advanced Message Queuing Protocol)** adalah standar protokol terbuka di lapisan aplikasi (*application layer*) yang dirancang khusus untuk *message-oriented middleware*. Protokol ini menyediakan aturan baku yang memungkinkan berbagai sistem atau aplikasi untuk saling berkirim pesan secara asinkron, aman, dan andal.
 
@@ -32,3 +36,4 @@ memberitahu `crosstown_bus` cara melakukan otentikasi dan ke mana harus terhubun
 * ***Guest* kedua**: Merupakan **password** *default* dari RabbitMQ yang berpasangan dengan *username* tersebut.
 * **Kegunaan `localhost:5672`**: Bagian ini menunjukkan lokasi server. `localhost` berarti *message broker* (RabbitMQ) 
 sedang berjalan di komputer lokal (mesin yang sama), sedangkan `5672` adalah nomor **port** TCP di mana RabbitMQ secara *default* menunggu (*listen*) jalur komunikasi masuk untuk AMQP.
+* 
