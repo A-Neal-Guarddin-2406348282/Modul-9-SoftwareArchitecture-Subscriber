@@ -36,4 +36,5 @@ memberitahu `crosstown_bus` cara melakukan otentikasi dan ke mana harus terhubun
 * ***Guest* kedua**: Merupakan **password** *default* dari RabbitMQ yang berpasangan dengan *username* tersebut.
 * **Kegunaan `localhost:5672`**: Bagian ini menunjukkan lokasi server. `localhost` berarti *message broker* (RabbitMQ) 
 sedang berjalan di komputer lokal (mesin yang sama), sedangkan `5672` adalah nomor **port** TCP di mana RabbitMQ secara *default* menunggu (*listen*) jalur komunikasi masuk untuk AMQP.
-* 
+
+Dengan kata lain, baris kode ini seperti ngasih perintah: *"Tolong buka jalur komunikasi AMQP ke server RabbitMQ di komputer lokal ini lewat port 5672, lalu lakuin autentikasi menggunakan akun bawaan dengan username 'guest' dan sandi 'guest'."*
